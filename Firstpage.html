@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <title>
+        Master Class
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="header-nav">
+            <img src="images/logo.png" alt="logo" id="Sid">
+            <div>
+                <button class="sign-in-btn" id="signInBtn">Sign In</button>
+                <button class="sign-in-btn" id="signUpBtn">Sign Up</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>
+                Master Class Learning Platform
+                <h3>learnning platform </h3>
+                <!-- <p>Ready to watch? Enter your email to create or restart your membership</p> -->
+            </h1>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup-container" id="popup">
+        <div class="form-popup">
+            <!-- Close Button -->
+            <button class="close-btn" id="closeBtn">&times;</button>
+
+            <!-- Sign In Form -->
+            <div class="form-content" id="loginForm">
+                <h2>Login</h2>
+                <form method="post" action="rough.py">
+
+                    <img src="images/features_img/sign-in image.png" id="sign-in-img" alt="sin-img">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="Password" required>
+
+                    <button type="submit" name="login">Login</button>
+                    <br>
+
+                    <p>Don't have an account? <span id="switchToSignUp">Sign Up</span></p>
+                    </a>
+                </form>
+
+            </div>
+
+            <!-- Sign Up Form -->
+            <div class="form-content" id="signupForm">
+                <h2>Sign Up</h2>
+                <form method="post" action="rough.py">
+                    <a href="Second page/index.html">
+                        <img src="images/features_img/sign-up-imagte.jpg" id="sign-up-img" alt="sup_img">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="number" name="phone_number" placeholder="Phone Number" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <button type="submit" name="signup">Sign Up</button>
+                        <p>Already have an account? <span id="switchToLogin">Sign In</span></p>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="features">
+        <div class="row1">
+            <div class="img-col">
+                <img src="images/features_img/img 6.jpg">
+            </div>
+            <div class="text-col">
+                <h2>
+                    Curated Learning Playlists:
+                </h2>
+                <p>
+                    Easily follow structured playlists tailored for different subjects, ensuring a step-by-step learning
+                    experience.
+                </p>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="text-col">
+                <h2>
+                    High-Quality Educational Videos
+                </h2>
+                <p>
+                    Access a vast library of expertly created and curated videos across various topics, designed for
+                    learners of all levels.
+                </p>
+            </div>
+            <div class="img-col">
+                <img src="images/features_img/img 8.jpg">
+            </div>
+        </div>
+        <div class="row3">
+            <div class="img-col">
+                <img src="images/features_img/img 2.jpg">
+            </div>
+            <div class="text-col">
+                <h2>
+                    Personalized Learning Path:
+                </h2>
+                <p>
+                    Create your own playlists or follow personalized suggestions based on your learning interests and
+                    progress.
+                </p>
+            </div>
+        </div>
+        <div class="row4">
+            <div class="text-col">
+                <h2>
+                    Interactive Learning Tools:
+                </h2>
+                <p>
+                    Engage with quizzes, notes, and discussion forums attached to each video to reinforce learning and
+                    clarify doubts.
+                </p>
+            </div>
+            <div class="img-col">
+                <img src="images/features_img/img 4.jpg">
+            </div>
+        </div>
+        <div class="faq">
+            <h2>
+                Frequently Asked Questions
+            </h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first">
+                    <label for="first">What is Master Class</label>
+                    <div class="content">
+                        <p>
+                            Master Class is a streaming service that offers a wide variety of Educational videos for
+                            students who can learn.
+
+                        </p>
+                        <br>
+                        <p>
+                            You can watch as much as you want, whenever you want, without a single ad – all for one low
+                            monthly price. There's always something new to discover.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="Second">How much does Master Class cost?</label>
+                    <div class="content">
+                        <p>
+                            Watch Master Class on your smartphone, tablet, Smart TV, laptop, or streaming device, all
+                            for one
+                            fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third">Where can I watch?</label>
+                    <div class="content">
+                        <p>
+                            Watch anywhere, anytime. Sign in with your Master Class account to watch instantly on the
+                            web at
+                            Master Class.com from your personal computer or on any internet-connected device that offers
+                            the
+                            Master Class webiste.
+                        </p>
+                        <br>
+                        <p>
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fourth">
+                    <label for="fourth">How do I cancel?</label>
+                    <div class="content">
+                        <p>
+                            Master Class is flexible. There are no annoying contracts and no commitments. You can easily
+                            cancel your account online in two clicks. There are no cancellation fees – start or stop
+                            your account anytime.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fifth">
+                    <label for="fifth">What can I watch on Master Class?</label>
+                    <div class="content">
+                        <p>
+                            Master Class has an extensive library of playlits where stedents can learn various videos on
+                            our website only.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+            <small>Ready to watch? Enter your email to create or restart your membership</small>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started
+                </button>
+            </form>
+        </div>
+        <div class="footer">
+            <h2>Questions? call 000-000-000-000</h2>
+            <div class="row">
+                <div class="col">
+                    <a href="#">FAQ</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Speed Test</a>
+                </div>
+                <div class="col">
+                    <a href="#">Help Center</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Cookies Preferences</a>
+                    <a href="#">Legal Notices</a>
+                </div>
+                <div class="col">
+                    <a href="#">Account</a>
+                    <a href="#">Ways To Watch</a>
+                    <a href="#">Corporate Information</a>
+                    <a href="#">Only on Master Class</a>
+                </div>
+                <div class="col">
+                    <a href="#">Account</a>
+                    <a href="#">Terms of use</a>
+                    <a href="#">Contact us</a>
+                </div>
+            </div>
+            <button class="language-btn">
+                English <img src="images/down-icon.png">
+            </button>
+            <p class="copyright-txt">Master Class India</p>
+        </div>
+        <script src="popup.js"></script>
+</body>
+
+</html>
